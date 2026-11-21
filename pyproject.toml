@@ -1,0 +1,15 @@
+[project]
+name = "ace-acemusic"
+version = "0.1.0"
+description = "ACE Music generation, reference audio and task nodes for ComfyUI"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.32,<3"]
+license = { file = "LICENSE" }
+
+[project.urls]
+Repository = "https://github.com/AceDataCloud/ACEMusicComfyUI"
+
+[tool.comfy]
+PublisherId = "acedatacloud"
+DisplayName = "ACE Music by Ace Data Cloud"
+Icon = "https://cdn.acedata.cloud/acemusic-icon-52deddfc87b9.png"
