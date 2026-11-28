@@ -1,0 +1,10 @@
+.git/
+.github/
+tests/
+__pycache__/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+dist/
+node.zip
