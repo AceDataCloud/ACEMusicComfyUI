@@ -7,7 +7,7 @@ python -m pip install -r requirements.txt
 python -m unittest discover
 ```
 
-Get an [application API key](https://platform.acedata.cloud/console/applications) with ACE Music access. Enter the raw key in the host's credential setting or server environment. Keep keys out of prompts, shared workflows and commits.
+Sign in to [Applications](https://platform.acedata.cloud/console/applications). On the **General Application** card, click the copy button beside **API KEY**. Confirm that the key has ACE Music access. If the application balance is low, click **Top Up** on its card. Set the raw key in the ComfyUI server environment as `ACEDATACLOUD_API_TOKEN` and restart ComfyUI. Keep keys out of prompts, shared workflows and commits.
 
 | Action | Inputs or result |
 | --- | --- |
